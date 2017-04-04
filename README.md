@@ -26,6 +26,11 @@ For detailed explanation on how things work, checkout the [guide](http://vuejs-t
 
 https://github.com/vuejs/vue-cli/issues/414
 
+## Deploy
+
+- 执行 `npm run build`。
+- 将 dist 目录下文件传到 VPS 即可。
+
 ## TODO
 
 - router
@@ -61,3 +66,7 @@ https://github.com/vuejs/vue-cli/issues/414
   - 引入 ui
   - 接口超时处理
   - 接口返回结果无法预览
+
+- 服务端渲染（SSR)
+
+  Vue 2.0 支持 SSR，官方文档提供了两个 Demo：[vue-ssr-demo-simple](https://github.com/chrisvfritz/vue-ssr-demo-simple) 和 [vue-hackernews-2.0](https://github.com/vuejs/vue-hackernews-2.0)，但目前改造仍有困难，需进一步熟悉 Webpack 配置和 Node.js 流操作，并对 bundle 相关概念有进一步理解。
